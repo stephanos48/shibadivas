@@ -1,40 +1,53 @@
-<div class="container mt-5">
-    <div *ngIf="!registerMode" style="text-align: center">
-        <div class="row">
-            <div class="col-11 text-left">
-                <h1>Extreme Portal</h1>
-            </div> 
+<head>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7827027680902383",
+        enable_page_level_ads: true
+      });
+    </script>
+  </head>
+  <div class="container">
+    <div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="">
+          <img [src]="zeedonk" alt="image" class="imag-responsive" height="735" width="">
+          <br><br>
+          <div class="text-center">
+          <h2>Making the World <i><b>Shibarrific</b></i> one puppy at a time!</h2>
         </div>
-        <img [src]="carimage" alt="image">
-        <br>
-        <div style="text-align: center">
-          <h1>Connecting our plants to our customers worldwide</h1>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Customer First Mindset</h2>
-                <p>We strive daily to service our customers better.</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Data Driven Decisions</h2>
-                <p>Good information leads to good decisions. The decisions we make are always data driven.</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Global Communication</h2>
-                <p>This site allows our companies to communicate, real-time, worldwide.</p>
-            </div>
-        </div>
-        <br>
-        <div>
-            <button (click)="registerToggle()" class="btn btn-primary btn-lg mr-2">Register</button>
-        </div>
+      </div>
     </div>
-    <div *ngIf="registerMode" class="container">
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <app-register (cancelRegister)="cancelRegisterMode($event)" ></app-register>
-            </div>
-        </div>
-    </div>
-</div>
+  <br>
+  <div>
+  <div class="row">
+      <div class="col-md-4">
+          <h3>Our Story</h3>
+          <p>We are sisters living in Frisco, TX. We love Shiba Inus and want to share their unique and 
+            playful spirit with as many families as possible.</p>
+      </div>
+      <div class="col-md-4">
+          <h3>Our Goal</h3>
+          <p>Raise money for our college educations by connecting healthy, happy and well socialized Shiba Inu puppies to loving families.</p>
+      </div>
+      <div class="col-md-4">
+          <h3>Our Puppies</h3>
+          <p>Our puppies come with vaccinations, vet check and AKC Basic Puppy Registration Package.</p>
+      </div>
+  </div>
+  
+  </div>
+  <div class="text-center">
+      <br><br>
+      <b><h4>Come see us in person...</h4></b>
+      <p><p>We set up puppy visits by appointment only.  Call today to set up a date!</p>
+      <br><br>
+      <b><h4>Shiba Divas' Puppies</h4></b>
+      <p><p>Frisco, TX</p>
+      <p><p>Phone: (770) 361-0820 or (770) 780-5011</p>
+      <p><p>Email: shibadivaspuppies@gmail.com</p>
+  </div>
+  </div>
+  <br>
+  <br>

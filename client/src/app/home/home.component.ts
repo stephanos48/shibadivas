@@ -9,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   registerMode = false;
   users: any;
-  carimage: any = '../assets/img/car4.png';
+  shiba2: any = '../assets/img/shiba2.jpg';
+  teresa: any = '../assets/img/teresa.JPG';
+  zeedonk: any = '../assets/img/helen&perse2019.jpg';
 
   constructor(private http: HttpClient) { }
 

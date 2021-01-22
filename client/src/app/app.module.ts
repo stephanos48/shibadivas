@@ -34,6 +34,28 @@ import { HasRoleDirective } from './_directives/has-role.directive';
 import { RolesModalComponent } from './modals/roles-modal/roles-modal.component';
 import { ConfirmDialogComponent } from './modals/confirm-dialog/confirm-dialog.component';
 import { LandingComponent } from './landing/landing.component';
+import { HistoryComponent } from './history/history.component';
+import { FooterComponent } from './footer/footer.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { ParentComponent } from './parent/parent.component';
+import { PastpuppiesComponent } from './pastpuppies/pastpuppies.component';
+import { PetservicesComponent } from './petservices/petservices.component';
+import { PuppyComponent } from './puppy/puppy.component';
+import { ThedivasComponent } from './thedivas/thedivas.component';
+import { TypeComponent } from './type/type.component';
+import { WaitlistComponent } from './waitlist/waitlist.component';
+import { BrunoComponent } from './parent/bruno/bruno.component';
+import { HeidiComponent } from './parent/heidi/heidi.component';
+import { KhalessiComponent } from './parent/khalessi/khalessi.component';
+import { TeresaComponent } from './parent/teresa/teresa.component';
+import { ZeedonkComponent } from './parent/zeedonk/zeedonk.component';
+import { PennyComponent } from './pastpuppies/penny/penny.component';
+import { TessaComponent } from './pastpuppies/tessa/tessa.component';
+import { AngelaComponent } from './puppy/angela/angela.component';
+import { ChandlerComponent } from './puppy/chandler/chandler.component';
+import { DwightComponent } from './puppy/dwight/dwight.component';
+import { AttributesComponent } from './attributes/attributes.component';
+import { ZackComponent } from './puppy/zack/zack.component';
 
 
 @NgModule({
@@ -61,7 +83,29 @@ import { LandingComponent } from './landing/landing.component';
     HasRoleDirective,
     RolesModalComponent,
     ConfirmDialogComponent,
-    LandingComponent
+    LandingComponent,
+    HistoryComponent,
+    FooterComponent,
+    FaqsComponent,
+    ParentComponent,
+    PastpuppiesComponent,
+    PetservicesComponent,
+    PuppyComponent,
+    ThedivasComponent,
+    TypeComponent,
+    WaitlistComponent,
+    BrunoComponent,
+    HeidiComponent,
+    KhalessiComponent,
+    TeresaComponent,
+    ZeedonkComponent,
+    PennyComponent,
+    TessaComponent,
+    AngelaComponent,
+    ChandlerComponent,
+    DwightComponent,
+    AttributesComponent,
+    ZackComponent
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,7 @@ import { AccountService } from '../_services/account.service';
 })
 export class NavComponent implements OnInit {
   model: any = {}
+  shibasit: any = '../assets/img/shiba-sitting2.png';
 
   constructor(public accountService: AccountService, private router: Router, private toastr: ToastrService) { }
 

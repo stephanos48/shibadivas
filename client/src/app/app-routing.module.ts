@@ -15,6 +15,21 @@ import { MemberDetailedResolver } from './_resolvers/member-detailed.resolver';
 import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 import { AdminGuard } from './_guards/admin.guard';
 import { LandingComponent } from './landing/landing.component';
+import { ParentComponent } from './parent/parent.component';
+import { PuppyComponent } from './puppy/puppy.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { ThedivasComponent } from './thedivas/thedivas.component';
+import { AttributesComponent } from './attributes/attributes.component';
+import { PastpuppiesComponent } from './pastpuppies/pastpuppies.component';
+import { WaitlistComponent } from './waitlist/waitlist.component';
+import { ZeedonkComponent } from './parent/zeedonk/zeedonk.component';
+import { KhalessiComponent } from './parent/khalessi/khalessi.component';
+import { BrunoComponent } from './parent/bruno/bruno.component';
+import { PetservicesComponent } from './petservices/petservices.component';
+import { TeresaComponent } from './parent/teresa/teresa.component';
+import { HeidiComponent } from './parent/heidi/heidi.component';
+import { ChandlerComponent } from './puppy/chandler/chandler.component';
+import { ZackComponent } from './puppy/zack/zack.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -30,6 +45,22 @@ const routes: Routes = [
       {path: 'messages', component: MessagesComponent},
       {path: 'admin', component: AdminPanelComponent, canActivate: [AdminGuard]},
       {path: 'landing', component: LandingComponent},
+      { path: 'parent', component: ParentComponent },
+      { path: 'puppy', component: PuppyComponent },
+      { path: 'pastpuppy', component: PastpuppiesComponent },
+      { path: 'faqs', component: FaqsComponent },
+      { path: 'thedivas', component: ThedivasComponent },
+      { path: 'history', component: ListsComponent },
+      { path: 'attributes', component: AttributesComponent },
+      { path: 'waitlist', component: WaitlistComponent },
+      { path: 'zack', component: ZackComponent },
+      { path: 'chandler', component: ChandlerComponent },
+      { path: 'heidi', component: HeidiComponent },
+      { path: 'zeedonk', component: ZeedonkComponent },
+      { path: 'khalessi', component: KhalessiComponent },
+      { path: 'bruno', component: BrunoComponent },
+      { path: 'petservices', component: PetservicesComponent },
+      { path: 'teresa', component: TeresaComponent },
     ]
   },
   {path: 'errors', component: TestErrorsComponent },
