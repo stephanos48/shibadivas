@@ -45,6 +45,7 @@ const routes: Routes = [
       {path: 'messages', component: MessagesComponent},
       {path: 'admin', component: AdminPanelComponent, canActivate: [AdminGuard]},
       {path: 'landing', component: LandingComponent},
+      {path: 'home', component: HomeComponent},
       {path: 'parent', component: ParentComponent },
       {path: 'puppy', component: PuppyComponent },
       {path: 'pastpuppy', component: PastpuppiesComponent },

@@ -26,10 +26,10 @@ export class PastpuppiesComponent implements OnInit {
   adalind1: any = '../assets/img/adalind-small.jpg';
   adalind: any = '../assets/img/adalind.jpg';
   isabella: any = '../assets/img/isabella-small.jpg';
-  damon: any = '../assets/img/damon-small.jpg';
+  damon: any = '../assets/img/damon-small1.jpg';
   toby: any = '../assets/img/toby-small.jpg';
   claire: any = '../assets/img/claire-small.jpg';
-  jimbo: any = '../assets/img/jimbo-samll.jpg';
+  jimbo: any = '../assets/img/jimbo-small.jpg';
 
   constructor() { }
 
