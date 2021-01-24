@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
     <div class="container">
         <!--<a class="navbar-brand" routerLink='/' routerLinkActive='active' >Extreme Portal</a>-->
         <a class="navbar-brand" [routerLink]="['/home']" ><img [src]="shibasit" alt="image" height="35" width=""> Shiba Divas' Puppies</a>
@@ -15,13 +15,28 @@
                 <a class="dropdown-item" [routerLink]="['/puppy']">Available Puppies</a> 
               </li>
               <li role="menuitem">
+                <a class="dropdown-item" [routerLink]="['/waitlist']">Waitlist</a> 
+              </li>
+              <li role="menuitem">
                 <a class="dropdown-item" [routerLink]="['/pastpuppy']">Past Puppies</a> 
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-item" [routerLink]="['/videos']">Videos</a> 
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-item" [routerLink]="['/parent']">Parent Page</a> 
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-item" [routerLink]="['/faqs']">FAQs</a> 
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-item" [routerLink]="['/thedivas']">The Divas</a> 
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-item" [routerLink]="['/petservices']">Pet Services</a> 
               </li>
             </ul>
           </div>
-          <button type="button" class="btn btn-primary" [routerLink]="['/parent']">Parent Page</button>
-          <button type="button" class="btn btn-primary" [routerLink]="['/faqs']">FAQs</button>
-          <button type="button" class="btn btn-primary" [routerLink]="['/waitlist']">Wait List</button>
           <div class="btn-group" dropdown>
               <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle" aria-controls="dropdown-basic">
                   Shiba Facts<span class="caret"></span>
@@ -35,8 +50,7 @@
                 </li>
               </ul>
           </div>
-          <button type="button" class="btn btn-primary" [routerLink]="['/thedivas']">The Divas</button>
-          <button type="button" class="btn btn-primary" [routerLink]="['/petservices']">Pet Services</button>
+          <!--<button type="button" class="btn btn-primary" [routerLink]="['/petservices']">Pet Services</button>-->
           <button class="btn btn-primary" onclick="window.location.href = 'https://www.shibadivasstore.com';">Pet Supplies</button>
         <ul class="navbar-nav mr-auto" >
             <ng-container *ngIf="accountService.currentUser$ | async">
@@ -53,9 +67,9 @@
                     <a class="nav-link" routerLink='/admin'routerLinkActive='active' >Admin</a>
                 </li>
             </ng-container>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" routerLink='/errors' routerLinkActive='active' >Errors</a>
-            </li>
+            </li>-->
         </ul>
 
         <div class="dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
