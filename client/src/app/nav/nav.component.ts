@@ -11,6 +11,7 @@ import { AccountService } from '../_services/account.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  registerMode = false;
   model: any = {}
   shibasit: any = '../assets/img/shiba-sitting2.png';
 
@@ -29,5 +30,10 @@ export class NavComponent implements OnInit {
     this.accountService.logout();
     this.router.navigateByUrl('/');
   }
+
+  registerToggle() {
+    this.registerMode = !this.registerMode;
+  }
+
 
 }
