@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
     <div class="container">
         <!--<a class="navbar-brand" routerLink='/' routerLinkActive='active' >Extreme Portal</a>-->
-        <a class="navbar-brand" [routerLink]="['/home']" ><img [src]="shibasit" alt="image" height="35" width=""> Shiba Divas' Puppies</a>
+        <a class="navbar-brand" [routerLink]="['/home']" ><img [src]="shibasit" alt="image" height="35" width="">Shiba Divas' Puppies</a>
         <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,8 +51,7 @@
               </ul>
           </div>
 
-            <a class="dropdown-item" [routerLink]="['/faqs']">FAQs</a> 
-              <button type="button" class="btn btn-primary" [routerLink]="['/register']">Pet Services</button>
+          <button type="button" class="btn btn-primary" [routerLink]="['/faqs']">FAQs</button>
           <!--<button type="button" class="btn btn-primary" [routerLink]="['/petservices']">Pet Services</button>-->
           <!--<button class="btn btn-primary" onclick="window.location.href = 'https://www.shibadivasstore.com';">Pet Supplies</button>-->
         <ul class="navbar-nav mr-auto" >
@@ -99,9 +98,8 @@
                 type="password" 
                 placeholder="Password">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
-
         </form>
-        <button (click)="registerToggle()" class="btn btn-primary btn-lg mr-2">Register</button>
+
     </div>
     <!--</div> -->
   </nav>
