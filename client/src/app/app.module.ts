@@ -56,6 +56,7 @@ import { ChandlerComponent } from './puppy/chandler/chandler.component';
 import { DwightComponent } from './puppy/dwight/dwight.component';
 import { AttributesComponent } from './attributes/attributes.component';
 import { ZackComponent } from './puppy/zack/zack.component';
+import { VideosComponent } from './videos/videos.component';
 
 
 @NgModule({
@@ -105,7 +106,8 @@ import { ZackComponent } from './puppy/zack/zack.component';
     ChandlerComponent,
     DwightComponent,
     AttributesComponent,
-    ZackComponent
+    ZackComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

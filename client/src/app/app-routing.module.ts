@@ -30,6 +30,7 @@ import { TeresaComponent } from './parent/teresa/teresa.component';
 import { HeidiComponent } from './parent/heidi/heidi.component';
 import { ChandlerComponent } from './puppy/chandler/chandler.component';
 import { ZackComponent } from './puppy/zack/zack.component';
+import { VideosComponent } from './videos/videos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -46,27 +47,29 @@ const routes: Routes = [
       {path: 'admin', component: AdminPanelComponent, canActivate: [AdminGuard]},
       {path: 'landing', component: LandingComponent},
       {path: 'home', component: HomeComponent},
-      {path: 'parent', component: ParentComponent },
-      {path: 'puppy', component: PuppyComponent },
-      {path: 'pastpuppy', component: PastpuppiesComponent },
-      {path: 'faqs', component: FaqsComponent },
-      {path: 'thedivas', component: ThedivasComponent },
-      {path: 'history', component: ListsComponent },
-      {path: 'attributes', component: AttributesComponent },
-      {path: 'waitlist', component: WaitlistComponent },
-      {path: 'zack', component: ZackComponent },
-      {path: 'chandler', component: ChandlerComponent },
-      {path: 'heidi', component: HeidiComponent },
-      {path: 'zeedonk', component: ZeedonkComponent },
-      {path: 'khalessi', component: KhalessiComponent },
-      {path: 'bruno', component: BrunoComponent },
-      {path: 'petservices', component: PetservicesComponent },
-      {path: 'teresa', component: TeresaComponent },
+
     ]
   },
   {path: 'errors', component: TestErrorsComponent },
   {path: 'not-found', component: NotFoundComponent },
   {path: 'server-error', component: ServerErrorComponent },
+  {path: 'videos', component: VideosComponent},
+  {path: 'parent', component: ParentComponent },
+  {path: 'puppy', component: PuppyComponent },
+  {path: 'pastpuppy', component: PastpuppiesComponent },
+  {path: 'faqs', component: FaqsComponent },
+  {path: 'thedivas', component: ThedivasComponent },
+  {path: 'history', component: ListsComponent },
+  {path: 'attributes', component: AttributesComponent },
+  {path: 'waitlist', component: WaitlistComponent },
+  {path: 'zack', component: ZackComponent },
+  {path: 'chandler', component: ChandlerComponent },
+  {path: 'heidi', component: HeidiComponent },
+  {path: 'zeedonk', component: ZeedonkComponent },
+  {path: 'khalessi', component: KhalessiComponent },
+  {path: 'bruno', component: BrunoComponent },
+  {path: 'petservices', component: PetservicesComponent },
+  {path: 'teresa', component: TeresaComponent },
   {path: '**', component: NotFoundComponent, pathMatch: 'full' },
 ];
 
