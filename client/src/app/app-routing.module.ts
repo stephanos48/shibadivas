@@ -31,6 +31,7 @@ import { HeidiComponent } from './parent/heidi/heidi.component';
 import { ChandlerComponent } from './puppy/chandler/chandler.component';
 import { ZackComponent } from './puppy/zack/zack.component';
 import { VideosComponent } from './videos/videos.component';
+import { HistoryComponent } from './history/history.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -58,7 +59,7 @@ const routes: Routes = [
   {path: 'pastpuppy', component: PastpuppiesComponent },
   {path: 'faqs', component: FaqsComponent },
   {path: 'thedivas', component: ThedivasComponent },
-  {path: 'history', component: ListsComponent },
+  {path: 'history', component: HistoryComponent },
   {path: 'attributes', component: AttributesComponent },
   {path: 'waitlist', component: WaitlistComponent },
   {path: 'zack', component: ZackComponent },

@@ -48,6 +48,16 @@
         <p><p>Phone: (770) 361-0820 or (770) 780-5011</p>
         <p><p>Email: shibadivaspuppies@gmail.com</p>
     </div>
+    <div>
+      <button (click)="registerToggle()" class="btn btn-primary btn-lg mr-2">Register</button>
+    </div>
+  </div>
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <app-register (cancelRegister)="cancelRegisterMode($event)" ></app-register>
+        </div>
+    </div>
   </div>
 </div>
 <br>
