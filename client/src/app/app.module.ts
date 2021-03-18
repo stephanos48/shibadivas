@@ -57,6 +57,9 @@ import { DwightComponent } from './puppy/dwight/dwight.component';
 import { AttributesComponent } from './attributes/attributes.component';
 import { ZackComponent } from './puppy/zack/zack.component';
 import { VideosComponent } from './videos/videos.component';
+import { WaitlistDetailComponent } from './waitlist/waitlist-detail/waitlist-detail.component';
+import { WaitlistCreateComponent } from './waitlist/waitlist-create/waitlist-create.component';
+import { WaitlistEditComponent } from './waitlist/waitlist-edit/waitlist-edit.component';
 
 
 @NgModule({
@@ -107,7 +110,10 @@ import { VideosComponent } from './videos/videos.component';
     DwightComponent,
     AttributesComponent,
     ZackComponent,
-    VideosComponent
+    VideosComponent,
+    WaitlistDetailComponent,
+    WaitlistCreateComponent,
+    WaitlistEditComponent
   ],
   imports: [
     BrowserModule,

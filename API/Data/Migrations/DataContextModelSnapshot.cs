@@ -273,6 +273,60 @@ namespace API.Data.Migrations
                     b.ToTable("Likes");
                 });
 
+            modelBuilder.Entity("API.Entities.Waitlist", b =>
+                {
+                    b.Property<int>("WaitlistId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .UseIdentityByDefaultColumn();
+
+                    b.Property<string>("Address")
+                        .HasColumnType("text");
+
+                    b.Property<string>("City")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Country")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PuppyPreference")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SpecialRequest")
+                        .HasColumnType("text");
+
+                    b.Property<string>("State")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("text");
+
+                    b.Property<string>("TimeFrame")
+                        .HasColumnType("text");
+
+                    b.Property<int>("WaitlistNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Zip")
+                        .HasColumnType("text");
+
+                    b.HasKey("WaitlistId");
+
+                    b.ToTable("Waitlists");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.Property<int>("Id")

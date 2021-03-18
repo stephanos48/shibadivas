@@ -24,11 +24,11 @@ export class PastpuppiesComponent implements OnInit {
   pete: any = '../assets/img/pete5.jpg';
   erin: any = '../assets/img/erin4.jpg';
   adalind: any = '../assets/img/adalind.jpg';
-  isabella: any = '../assets/img/isabella-small.jpg';
-  damon: any = '../assets/img/damon-small1.jpg';
-  toby: any = '../assets/img/toby-small.jpg';
-  claire: any = '../assets/img/claire-small.jpg';
-  jimbo: any = '../assets/img/jimbo-small.jpg';
+  isabella: any = '../assets/img/isabella.JPG';
+  damon: any = '../assets/img/damon-small.jpg';
+  toby: any = '../assets/img/toby.JPG';
+  claire: any = '../assets/img/claire.JPG';
+  jimbo: any = '../assets/img/jimbo.JPG';
 
   constructor() { }
 

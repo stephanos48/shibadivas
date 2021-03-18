@@ -21,6 +21,7 @@ namespace API.Data
         public ILikesRepository LikesRepository => new LikesRepository(_context);
 
         public IPhotoRepository PhotoRepository => new PhotoRepository(_context);
+        public IWaitlistRepository WaitlistRepository => new WaitlistRepository(_context, _mapper);
 
         public async Task<bool> Complete()
         {
@@ -31,5 +32,6 @@ namespace API.Data
         {
             return _context.ChangeTracker.HasChanges();
         }
+
     }
 } 
